@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(images/toa-heftiba-Q7QiiXtwoc8-unsplash.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/toa-heftiba-Q7QiiXtwoc8-unsplash.jpg);
+    background-size: cover;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+
+#main_header {
+    color: white;
+    font: arial;
+}
+
+#credits {
+    color: white;
+    justify-self: flex-end;
+    margin-top: vh;
+}
+
+.promo-wrap {
+    margin-top: 7vh;
+    margin-left: 2vh;
+}
+
+.input-wrap {
+    display:flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 8vh;
+    background-color: rgba(255, 255, 255, 0.821);
+    width: 75%;
+    height: 65%;
+    border-radius: 15px;
+}
+
+fieldset {
+    appearance: none;
+}
+
+li {
+    appearance: none;
+    list-style-type: none;
+}
